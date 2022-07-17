@@ -1,2 +1,38 @@
 ﻿body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000C18;
 }
+
+.stellar {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+}
+
+    .stellar span {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: red;
+        border-radius: 50%;
+    }
+
+        .stellar span:nth-child(1) {
+            filter: blur(5px);
+        }
+        .stellar span:nth-child(2) {
+            filter: blur(10px);
+        }
+        .stellar span:nth-child(3) {
+            filter: blur(20px);
+        }
+        .stellar span:nth-child(4) {
+            filter: blur(30px);
+        }
